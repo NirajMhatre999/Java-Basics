@@ -49,6 +49,9 @@ private: The instance variable can only be accessed within the same class.
 protected: The instance variable can be accessed within the same class, subclasses, and other classes in the same package.
 Default (no specifier): The instance variable can be accessed within the same package.
 SYNTAX : accessModifier dataType variableName;
+HOW TO ACCESS : It depends on type of method
+For Normal Method It can be called directly
+For Static method it can be called by creating object of class.
 
 STATIC VARIABLES
 DECLARATION : Static variables in Java are declared within a class, outside any method, constructor, or block of code, and are marked with the static keyword. They are associated with the class itself rather than individual instances or objects of the class.
@@ -67,4 +70,8 @@ private: The static variable can only be accessed within the same class.
 protected: The static variable can be accessed within the same class, subclasses, and other classes in the same package.
 Default (no specifier): The static variable can be accessed within the same package.
 SYNTAX : accessModifier static dataType variableName;
+HOW TO ACCESS : We can access static variables in three ways
+Directly
+By using class name
+By using object reference name
 */
